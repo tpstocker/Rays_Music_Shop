@@ -22,5 +22,8 @@ public class Shop {
         this.saleItems.remove(item);
     }
 
+    public ISell getMarkup() {
+        return saleItems.get(0);
+    }
 
 }

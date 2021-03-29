@@ -33,6 +33,11 @@ public class ShopTest {
         shop.removeItem(bagpipes);
         assertEquals(0, shop.getItemCount());
     }
+
+    @Test
+    public void getMarkup() {
+
+    }
 }
 
 
